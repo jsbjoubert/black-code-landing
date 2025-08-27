@@ -10,7 +10,7 @@ function App() {
       {/* Hero Section */}
       <section className="px-4 py-16 text-center max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          🚨 Você nasceu pra trabalhar 40 anos pra enriquecer o patrão?
+          🚨 VOCÊ NASCEU PRA TRABALHAR 40 ANOS PRA ENRIQUECER O PATRÃO?
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-300 leading-relaxed">
           <strong>Chega de vender seu tempo por um salário que evapora antes do fim do mês.</strong><br />
@@ -20,7 +20,7 @@ function App() {
           className="bg-green-500 hover:bg-green-600 text-black font-bold text-lg px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105"
           onClick={() => window.open(ctaLink, '_blank')}
         >
-          Quero minha liberdade agora
+          QUERO MINHA LIBERDADE AGORA
         </Button>
       </section>
 
@@ -56,7 +56,7 @@ function App() {
             className="bg-green-500 hover:bg-green-600 text-black font-bold text-lg px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105"
             onClick={() => window.open(ctaLink, '_blank')}
           >
-            Quero minha liberdade agora
+             QUERO MINHA LIBERDADE AGORA
           </Button>
         </div>
       </section>
@@ -84,14 +84,14 @@ function App() {
           </div>
 
           <p className="text-2xl font-bold mb-8 text-yellow-400">
-            Você merece mais do que isso.
+            VOCÊ MERCE MAIS DO QUE ISSO.
           </p>
 
           <Button 
             className="bg-green-500 hover:bg-green-600 text-black font-bold text-lg px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105"
             onClick={() => window.open(ctaLink, '_blank')}
           >
-            Quero começar agora
+            QUERO COMEÇAR AGORA
           </Button>
         </div>
       </section>
@@ -106,15 +106,15 @@ function App() {
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="bg-black p-6 rounded-lg border border-gray-700">
               <p className="text-lg mb-2"><strong>João, auxiliar de escritório:</strong></p>
-              <p>largou o extra no fim de semana e hoje fatura no digital.</p>
+              <p>largou o extra no fim de semana e hoje fatura ALTO no digital.</p>
             </div>
             <div className="bg-black p-6 rounded-lg border border-gray-700">
               <p className="text-lg mb-2"><strong>Carla, atendente de mercado:</strong></p>
-              <p>cansada da escala, criou sua renda extra em 2 meses.</p>
+              <p>cansada da escala, ganhou em 30 dias o equivalente a 3 meses do seu antigo salário.</p>
             </div>
             <div className="bg-black p-6 rounded-lg border border-gray-700">
               <p className="text-lg mb-2"><strong>Marcos, CLT há 12 anos:</strong></p>
-              <p>primeira venda online em menos de 30 dias.</p>
+              <p>primeira venda online em menos de 15 dias.</p>
             </div>
           </div>
 
@@ -132,7 +132,7 @@ function App() {
           </h2>
           
           <p className="text-xl mb-8 text-gray-300">
-            O acesso completo ao curso é menos que um almoço fora no fim de semana.
+            O acesso completo ao MÉTODO é menos que um almoço fora.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -156,7 +156,7 @@ function App() {
             className="bg-green-500 hover:bg-green-600 text-black font-bold text-xl px-12 py-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             onClick={() => window.open(ctaLink, '_blank')}
           >
-            Quero garantir meu acesso agora
+             QUERO MINHA LIBERDADE AGORA
           </Button>
         </div>
       </section>
@@ -197,7 +197,7 @@ function App() {
           </h2>
           
           <p className="text-2xl mb-8 text-gray-300">
-            <strong>Você pode continuar preso ao crachá ou dar o primeiro passo pra sua liberdade.</strong>
+            <strong>Você pode continuar preso ao crachá ou dar o primeiro passo pra sua LIBERDADE.</strong>
           </p>
 
           <Button 
