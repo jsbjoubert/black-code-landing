@@ -27,7 +27,7 @@ const handleCtaClick = () => {
         </p>
         <Button 
           className="bg-green-500 hover:bg-green-600 text-black font-bold text-lg px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105"
-          onClick={() => window.open(ctaLink, '_blank')}
+          onClick={handleCtaClick}
         >
           QUERO MINHA LIBERDADE AGORA
         </Button>
