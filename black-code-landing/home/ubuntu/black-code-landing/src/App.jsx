@@ -5,6 +5,7 @@ import './App.css'
 function App() {
   const ctaLink = "https://pay.kiwify.com.br/AaKf9Vr?afid=RoHJBYpy"
 const handleCtaClick = () => {
+  // 🔹 Facebook Pixel
   if (window.fbq) {
     window.fbq('track', 'InitiateCheckout', {
       content_name: 'CTA - topo',
@@ -12,7 +13,20 @@ const handleCtaClick = () => {
       value: 0
     });
   }
+
+  // 🔹 Google Analytics 4
+  if (window.gtag) {
+    window.gtag('event', 'begin_checkout', {
+      currency: 'BRL',
+      value: 0,
+      items: [{ item_name: 'BLACK CODE' }]
+    });
+  }
+
+  // 🔹 Continua abrindo o link normalmente
+  window.open(ctaLink, '_blank');
 };
+
 
   return (
     <div className="min-h-screen bg-black text-white">
