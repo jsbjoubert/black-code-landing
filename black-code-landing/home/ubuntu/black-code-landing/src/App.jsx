@@ -128,7 +128,7 @@ const handleCtaClick = () => {
           </div>
 
           <p className="text-2xl font-bold text-yellow-400">
-            Não é papo de coach. É vida real.
+            Não é papo de mentor de palco. É vida real.
           </p>
         </div>
       </section>
