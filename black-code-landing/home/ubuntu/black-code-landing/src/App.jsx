@@ -4,6 +4,15 @@ import './App.css'
 
 function App() {
   const ctaLink = "https://pay.kiwify.com.br/AaKf9Vr?afid=RoHJBYpy"
+const handleCtaClick = () => {
+  if (window.fbq) {
+    window.fbq('track', 'InitiateCheckout', {
+      content_name: 'CTA - topo',
+      currency: 'BRL',
+      value: 0
+    });
+  }
+};
 
   return (
     <div className="min-h-screen bg-black text-white">
